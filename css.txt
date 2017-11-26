@@ -1,0 +1,24 @@
+1. background
+background-color (thiết lập màu nền)
+background-image (thiết lập hình nền)
+background-repeat (thiết lập sự lặp lại của hình nền)
+background-attachment (thiết lập vị trí cố định cho hình nền)
+background-position (thiết lập vị trí của hình nền)
+2.định dang văn bản
+color (chọn màu cho văn bản)
+text-decoration (gạch ngang văn bản, gạch đầu, gạch đít)
+text-align (canh lề văn bản)
+text-transform (chuyển đổi kiểu chữ cho văn bản. Ví dụ, chuyển sang kiểu chữ hoa hoặc chữ thường)
+line-height (Thiết lập chiều cao mỗi hàng của văn bản)
+word-spacing (Thiết lập khoảng cách giữa các từ của văn bản)
+letter-spacing (Thiết lập khoảng cách giữa các ký tự của văn bản)
+text-indent (Thụt đầu dòng văn bản)
+3. viền 
+border-style (Thiết lập kiểu đường viền)
+border-width (Thiết lập độ dày của đường viền)
+border-color (Thiết lập màu của đường viền)
+4. font chữ 
+font-size - thiết lập kích cỡ chữ
+font-weight - thiết lập sự tô đậm của chữ
+font-style - thiết lập sự in nghiêng của chữ
+font-family - thiết lập kiểu chữ
