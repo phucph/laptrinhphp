@@ -1,0 +1,19 @@
+<p>Đây là một đoạn văn bản.</p>
+<u>	Tạo chữ có dấu gạch dưới
+<b>, <strong>	Tạo chữ tô đậm
+<i>, <em>	Tạo chữ in nghiêng	
+<big>	Tạo chữ có kích thước to hơn các chữ bình thường	
+<small>	Tạo chữ có kích thước nhỏ hơn các chữ bình thường	
+<del>, <strike>	Tạo chữ có dấu gạch ngang qua	
+<sup>	Tạo chữ là chỉ số ở nằm trên	
+<sub>	Tạo chữ là chỉ số ở nằm dưới	
+<mark>	Tạo chữ được đánh dấu màu nổi bật	
+<pre>	Giữ định dạng giống như phần soạn thảo
+
+vd: 
+<p>Hướng dẫn học <u>lập trình web</u> từ A đến Z</p>
+<p><strong>Hướng dẫn học</strong> lập trình web từ A đến Z</p>
+<p><em>Hướng dẫn học</em> lập trình web từ A đến Z</p>
+<p><strike>Hướng dẫn học</strike> lập trình web từ A đến Z</p>
+<p>Hướng dẫn học lập trình web <sup>từ A đến Z</sup></p>
+<p>Hướng dẫn học lập trình web <sub>từ A đến Z</sub></p>
