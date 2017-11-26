@@ -1,0 +1,43 @@
+1.tạo 1 bảng mysql
+CREATE TABLE hocSinh
+(
+   id INT(3) Unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   lop INT(3) unsigned not null,
+   hoten VARCHAR(200) NOT NULL,
+   ngaysinh date,
+   diachi VARCHAR (200),    
+   FOREIGN KEY (fied) REFERENCES lop(id)// tạo ra khóa ngoại - fied là tên bảng chứa khoa ngoại
+   );
+   FOREIGN KEY (lop) REFERENCES lop(id)
+
+2.INSERT DỮ LIỆU VÀO DATABASE
+cú pháp:
+INSERT INTO tenbang(field1,field2,...)VALUES('giatri 1 , giá trị 2 ,...);
+3.Sửa dữ liệu trong database
+cu pháp : update ten_bang
+		  set ten_cot = giatri
+		  where dieu kien
+		vd: 
+		  update lop
+		  set lop = "Hệ thống thông tin"
+		  where id=1;
+4.Xóa dữ liệu ; 
+cú pháp : DELETE FORM tenbang Where dieukien
+	vd: delete from lop where id=4;
+5.hien thị dữ liệu 
+	SELECT * FORM ten_bang Where dieukien // * tat ca cac thang phan trong bang
+	vd :
+	SELECT * FORM lop Where lop Like'%t' ; // like tim kiếm tất cả các từ có từ t cuoi cùng . t% là t đàu tiên
+	between trong khoảng 
+6.sắp xếp dữ liệu 
++ giảm dần : 
+	cú pháp : SELECT * FORM ten_bang ORDER BY ten_truong Desc // nếu là asc thay  cho desc tăng dần 
+	
+7.kết nối dữ liệu
+ vd : cú pháp
+ 
+	SELECT * FORM hocSinh,lop Where hocSinh.lop = lop.id and hocSinh.lop =1 
+	
+	
+	
+	
